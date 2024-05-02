@@ -1,5 +1,5 @@
-FROM python:3.9-slim
-WORKDIR /examples
+FROM python:3.12-slim
+WORKDIR /home/ubuntu/
 
 LABEL authors="BN"
 RUN apt-get update && apt-get upgrade -y \
