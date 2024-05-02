@@ -8,8 +8,8 @@ verify_ssl = true
 [packages]
 streamlit = "*"
 pandas = "*"
-chart-studio = "*"
+matplotlib = "*"
 numpy = "*"
 
 [requires]
-python_version = "3.9"
+python_version = "3.11"
